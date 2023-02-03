@@ -71,7 +71,7 @@ function createModal(text) {
 const cuestionario=[
     {
     
-        "pregunta":"¿Cu&aacute;ndo acabó la primera guerra mundial?",
+        "pregunta":"¿Cu&aacute;ndo acab&oacute; la primera guerra mundial?",
         "imagen":"https://mvsnoticias.com/u/fotografias/m/2022/9/1/f960x540-494958_569033_7.jpg",
         "object_fit":"cover",
         "opciones": ['1944','1942','1945','1943'],
@@ -156,7 +156,7 @@ document.querySelector('#next').addEventListener("click", () => {
         document.querySelector('#next').innerHTML="Finalizar"
     }
     if(preguntaactual>=final){
-        createModal('¡Finalizaste! Tienes: '+`${preguntascorrectas}`+ ' preguntas correctas / 5')
+        createModal('¡Finalizaste! Tienes: '+`${preguntascorrectas}`+ ' / 5 preguntas correctas. ')
     }
     displayquestion();
 });
