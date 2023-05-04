@@ -3,7 +3,7 @@ function addId(element, id) {
   };
 function Bordeverde1(opcionS) {
     opcionS.style.borderWidth = "5px"
-    opcionS.style.borderColor= "green"
+    opcionS.style.borderColor= "blue"
     addId(opcionS, "ElElegido")
     return opcionS
     };
